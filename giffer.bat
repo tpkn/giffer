@@ -46,11 +46,11 @@ goto action
 
 :action
 for %%i in ("%*") do (
-	ffmpeg -i "%%i" -vf palettegen "%%~dpni_palette.png"
-	ffmpeg -i "%%i" -i "%%~dpni_palette.png" -lavfi paletteuse -r %FPS% "%%~dpni.gif"
+   ffmpeg -i "%%i" -vf palettegen "%%~dpni_palette.png"
+   ffmpeg -i "%%i" -i "%%~dpni_palette.png" -lavfi paletteuse -r %FPS% "%%~dpni.gif"
 
-	:: Remove palette
-	del /s /q "%%~dpni_palette.png"
+   :: Remove palette
+   del /s /q "%%~dpni_palette.png"
 )
 goto complete
 
