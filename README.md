@@ -2,7 +2,7 @@
 Video into gif in a single move 
 
 
-![preview](https://github.com/tpkn/gifer/blob/master/preview.gif)
+![preview](https://github.com/tpkn/giffer/blob/master/preview.gif)
 
 
 ### Usage
