@@ -1,4 +1,4 @@
-#  Magick Spriter
+#  Giffer
 Video into gif in a single move 
 
 
