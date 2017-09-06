@@ -1,7 +1,3 @@
-#  Giffer
-Video into gif in a single move 
-
-
 ![preview](https://github.com/tpkn/giffer/blob/master/preview.gif)
 
 
